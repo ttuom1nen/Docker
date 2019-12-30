@@ -4,7 +4,7 @@ FROM node:alpine
 # Install some dependencies
 # COPY {path on machine} {path inside the container}
 COPY ./ ./
-RUN npm Install
+RUN npm install
 
 # Default command
 CMD ["npm", "start"]
