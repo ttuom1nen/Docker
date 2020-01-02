@@ -1,6 +1,8 @@
 # Specify a base image
 FROM node:alpine
 
+WORKDIR /usr/app
+
 # Install some dependencies
 # COPY {path on machine} {path inside the container}
 COPY ./ ./
