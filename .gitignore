@@ -1,2 +1,4 @@
 /simpleweb/node_modules
 /visits/node_modules
+/frontend/node_modules
+/frontend/build
