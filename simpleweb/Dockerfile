@@ -1,4 +1,7 @@
 # Specify a base image
+# Alpine does not come with nodejs
+# Check supported for node: hub.docker.com
+# node:alpine is a version where node works
 FROM node:alpine
 
 # Set the root work directory inside container
